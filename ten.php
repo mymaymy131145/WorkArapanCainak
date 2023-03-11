@@ -8,6 +8,3 @@
 <?php
 require 'display.php';
 ?>
-
-</body>
-</html>
