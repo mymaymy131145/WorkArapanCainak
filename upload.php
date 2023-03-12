@@ -1,3 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
+</head>
+<body>
+
+<body>
+
+<h1 style="border: 2px solid DodgerBlue;">มีแค่เราที่รู้ว่าความสำเร็จนั้นน่าภูมิใจขนาดไหน</h1>
+
+
+
+</body>
+</body>
+</html>
+
+
+
+
 <?php
  if(isset($_FILES['image'])){
   $file_name = $_FILES['image']['name'];   
@@ -28,3 +52,15 @@
  <input type="file" name="image" />
  <input type="submit"/>
 </form>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<?php
+require 'display.php';
+?>
+
